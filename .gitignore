@@ -1,3 +1,6 @@
 node_modules
 .history
 .vscode
+.github
+css
+tokens
