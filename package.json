@@ -1,0 +1,17 @@
+{
+  "name": "figma-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run transform && node build.js",
+    "transform": "token-transformer tokens.json tokens/input.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "style-dictionary": "^3.1.1",
+    "token-transformer": "0.0.14"
+  }
+}
