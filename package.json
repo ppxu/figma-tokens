@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "style-dictionary": "^3.1.1",
-    "token-transformer": "0.0.14"
+    "token-transformer": "0.0.17"
   }
 }
