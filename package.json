@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "style-dictionary": "^3.1.1",
-    "token-transformer": "0.0.17"
+    "style-dictionary": "^3.7.0",
+    "token-transformer": "0.0.19"
   }
 }

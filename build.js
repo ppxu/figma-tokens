@@ -39,6 +39,30 @@ StyleDictionary.registerTransform({
   },
 });
 
+StyleDictionary.registerTransform({
+  name: 'font/customFontSize',
+  type: 'value',
+  matcher: function (token) {
+    return token.type === 'fontSizes';
+  },
+  transformer: (token) => {
+    const size = token.value;
+    return `${size}px`;
+  },
+});
+
+StyleDictionary.registerTransform({
+  name: 'border/customBorderRadius',
+  type: 'value',
+  matcher: function (token) {
+    return token.type === 'borderRadius';
+  },
+  transformer: (token) => {
+    const size = token.value;
+    return `${size}px`;
+  },
+});
+
 StyleDictionary.registerTransformGroup({
   name: 'custom/css',
   transforms: [
@@ -50,6 +74,8 @@ StyleDictionary.registerTransformGroup({
     'color/css',
     'shadow/customShadow',
     'font/customFont',
+    'font/customFontSize',
+    'border/customBorderRadius',
   ],
 });
 
