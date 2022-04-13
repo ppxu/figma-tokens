@@ -15,7 +15,7 @@ StyleDictionary.registerTransform({
     const shadows = Object.values(token.value);
     const result = shadows.map(
       (shadow) =>
-        `${shadow.x} ${shadow.y} ${shadow.blur} ${shadow.spread} ${shadow.color}`
+        `${shadow.x}px ${shadow.y}px ${shadow.blur}px ${shadow.spread}px ${shadow.color}`
     );
     return result.join(',');
   },
