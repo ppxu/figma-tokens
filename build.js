@@ -84,6 +84,7 @@ const StyleDictionaryExtend = StyleDictionary.extend({
   platforms: {
     css: {
       transformGroup: 'custom/css',
+      prefix: 'tant',
       buildPath: 'css/',
       files: [
         {
